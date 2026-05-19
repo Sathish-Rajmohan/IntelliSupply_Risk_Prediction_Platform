@@ -9,7 +9,7 @@ Supply chain risk intelligence platform that scores any global transport hub usi
 
 ## Overview
 
-IntelliSupply transforms raw weather forecasts and geopolitical news into a single, unified disruption risk score for each supply chain hub. Instead of manually monitoring dozens of locations, users get colour-coded risk indicators, 7-day predictive forecasts, and real-time alerts — all from one dashboard.
+IntelliSupply transforms raw weather forecasts and geopolitical news into a single, unified disruption risk score for each supply chain hub. Instead of manually monitoring dozens of locations, users get colour-coded risk indicators, 7-day predictive forecasts, and real-time alerts all from one dashboard.
 
 **Live frontend:** https://supply-chain-risk-m4mbhukg6-ayras-projects.vercel.app
 
@@ -17,12 +17,12 @@ IntelliSupply transforms raw weather forecasts and geopolitical news into a sing
 
 ## Features
 
-- **Risk dashboard** — interactive map of ~1,800 monitored hubs colour-coded by risk level (Low / Elevated / High / Critical)
-- **7-day forecast** — ML model trained on ERA5 historical data predicts weather-driven disruption risk up to 7 days ahead
-- **Combined risk scoring** — 65% weather + 35% geopolitical sentiment, with graceful fallback when news data is unavailable
-- **Optimal path finding** — Dijkstra's algorithm over a risk-weighted graph of hubs to recommend the safest shipping route
-- **Custom locations** — analyse any latitude/longitude, not just predefined hubs
-- **Watchlist alerts** — subscribe to hubs and receive email notifications when risk reaches Critical
+- **Risk dashboard**: interactive map of ~1,800 monitored hubs colour-coded by risk level (Low / Elevated / High / Critical)
+- **7-day forecast**: ML model trained on ERA5 historical data predicts weather-driven disruption risk up to 7 days ahead
+- **Combined risk scoring**: 65% weather + 35% geopolitical sentiment, with graceful fallback when news data is unavailable
+- **Optimal path finding**: Dijkstra's algorithm over a risk-weighted graph of hubs to recommend the safest shipping route
+- **Custom locations**: analyse any latitude/longitude, not just predefined hubs
+- **Watchlist alerts**: subscribe to hubs and receive email notifications when risk reaches Critical
 
 ---
 
@@ -87,7 +87,7 @@ The analytics service uses a supervised regression model (Random Forest or XGBoo
 
 Base URL (production): `https://ljtwsbvd8l.execute-api.ap-southeast-2.amazonaws.com/prod`
 
-Full OpenAPI spec: [`docs/openapi.yaml`](docs/openapi.yaml) — rendered at the [API Docs](https://ayrasaqib.github.io/supply-chain-risk-api-docs/) link above.
+Full OpenAPI spec: [`docs/openapi.yaml`](docs/openapi.yaml): rendered at the [API Docs](https://ayrasaqib.github.io/supply-chain-risk-api-docs/) link above.
 
 Key endpoints:
 
@@ -111,7 +111,7 @@ GET  /ese/v1/watchlist/{email}                     List subscribed hubs
 
 | Repo | Description |
 |---|---|
-| [Backend](https://github.com/zayan-farazi/SENG3011) | This repo — Lambdas, Terraform, tests |
+| [Backend](https://github.com/zayan-farazi/SENG3011) | This repo: Lambdas, Terraform, tests |
 | [Frontend](https://github.com/ayrasaqib/supply-chain-risk-frontend) | Next.js dashboard |
 
 ---
