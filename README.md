@@ -111,8 +111,8 @@ GET  /ese/v1/watchlist/{email}                     List subscribed hubs
 
 | Repo | Description |
 |---|---|
-| [Backend](https://github.com/zayan-farazi/SENG3011) | This repo: Lambdas, Terraform, tests |
-| [Frontend](https://github.com/ayrasaqib/supply-chain-risk-frontend) | Next.js dashboard |
+| [Backend]| This repo: Lambdas, Terraform, tests |
+| [Frontend]([https://github.com/ayrasaqib/supply-chain-risk-frontend](https://github.com/Sathish-Rajmohan/IntelliSupply_Frontend)) | Next.js dashboard |
 
 ---
 
