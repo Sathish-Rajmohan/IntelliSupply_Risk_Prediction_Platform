@@ -3,9 +3,7 @@
 [![API Docs](https://img.shields.io/badge/API-Docs-green)](https://ayrasaqib.github.io/supply-chain-risk-api-docs/)
 [![CI](https://github.com/zayan-farazi/SENG3011/actions/workflows/terraform-ci.yml/badge.svg)](https://github.com/zayan-farazi/SENG3011/actions/workflows/terraform-ci.yml)
 
-Supply chain risk intelligence platform that scores ~1,800 global hubs using weather ML models and geopolitical news sentiment. Features a live risk dashboard, 7-day forecasts, optimal route pathfinding, and watchlist email alerts.
-
-**Team ESE** — Ayra, Zayan, Hoang, Tomer, Sathish
+Supply chain risk intelligence platform that scores any global transport hub using weather ML models and geopolitical news sentiment. Features a live risk dashboard, 7-day forecasts, optimal route pathfinding, and watchlist email alerts.
 
 ---
 
